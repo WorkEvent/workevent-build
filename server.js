@@ -16,7 +16,6 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-//routes
 app.post('/signup', (req, res) => {
     const newUser = new User({
         email: req.body.email,
