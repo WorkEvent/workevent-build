@@ -4,7 +4,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const User = require('./models/User');
 const Event = require('./models/Event');
-
+var serveStatic = require('serve-static')
+var history = require('connect-history-api-fallback')
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken')
 
@@ -12,9 +13,14 @@ const jwt = require('jsonwebtoken')
 mongoose.connect('mongodb+srv://admin:root@cluster0.elh7n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
 
 const app = express();
+app.use(history({
+    // OPTIONAL: Includes more verbose logging
+    verbose: true
+}))
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(serveStatic(path.join(__dirname, '/dist')))
 
 app.post('/signup', (req, res) => {
     const newUser = new User({
