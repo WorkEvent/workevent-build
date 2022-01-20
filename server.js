@@ -8,6 +8,7 @@ var serveStatic = require('serve-static')
 var history = require('connect-history-api-fallback')
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken')
+const path = require('path')
 
 
 mongoose.connect('mongodb+srv://admin:root@cluster0.elh7n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
