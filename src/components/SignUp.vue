@@ -69,7 +69,7 @@ export default {
             .then(res => {
               console.log(res)
               this.error = '';
-              this.$router.push('/');
+              this.$router.push('/login');
             }, err => {
               console.log(err.response)
               this.error = err.response.data.error
