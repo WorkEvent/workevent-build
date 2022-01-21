@@ -29,7 +29,7 @@
         </div>
 
           <div class="login-button col-12  mx-auto w-25 pt-4">
-            <button class="w-100 login-button-click" @click="newEvent">Add Event</button>
+            <button class="w-100 login-button-click" @click="newEvent">Ajouter l'évènement</button>
           </div>
       </div>
     </div>
