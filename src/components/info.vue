@@ -1,8 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div class="row navbar">
 
-    </div>
     <div class="row">
       <div class="col-12 wallpaper" ></div>
     </div>
@@ -36,16 +34,16 @@
       <div class="col-12 third-section">
         <div class="col-4 block-text">
           <h2>Notre éthique</h2>
-          <p></p>
+          <p>Développer l'intégration de demain avec une plateforme innovante</p>
         </div>
         <div class="col-4 block-text">
-          <h2>Nos Objectifs</h2>
-          <p></p>
+          <h2>Notre Objectif</h2>
+          <p>Créer un lien social entre les salariés de l'entreprise et participer à la conception du bien-être</p>
         </div>
         <div class="col-4 block-text">
           <h2>Nos Valeurs</h2>
           <p></p>
-      </div>
+       </div>
     </div>
     <div class="row">
       <div class="col-12" style="padding: 0;">
