@@ -40,7 +40,7 @@
     <div class="row">
       <div class="col-12" style="padding: 0;">
         <div class="col-12 footer-section">
-          <div class="col-12 w-100 footer-links">
+          <div class="col-12 footer-links">
             <ul class="footer-text">
               <li><a class="footer-links" href="">Mentions Légales</a></li>
               <li><a class="footer-links" href="">Partenariat</a></li>

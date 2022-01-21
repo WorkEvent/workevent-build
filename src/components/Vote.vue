@@ -48,7 +48,7 @@
             <div>{{ item.type }} prévu pour un maximum de <b>{{ item.attendance }}</b> personnes</div>
           </v-card-text>
             <div class="col-6 text-center vote-button-section">
-              <button class="w-100 mx-auto mb-3 vote-btn">Choisir cet évènement</button>
+              <button class="w-100 mx-auto mb-3 vote-btn">Add Event</button>
 
             </div>
 
