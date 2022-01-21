@@ -136,14 +136,14 @@ TO DO :
 
 .right-login {
   background-color: #F5F0E1;
-  height:100vh;
+  height:120vh;
 }
 
 .logo-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25%;
+  margin-top: 50%;
 }
 
 </style>
