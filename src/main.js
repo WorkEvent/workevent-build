@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import vuetify from './plugins/vuetify'
 import NewEvent from "./components/NewEvent";
 import Info from "./components/info";
+import Shop from "./components/shop";
 
 Vue.use(VueRouter);
 
@@ -18,6 +19,8 @@ const routes = [
   { path: '/login', component: Login },
   { path: '/vote', component: Vote },
   { path: '/', component: Info },
+  { path: '/shop', component: Shop },
+
 
   { path : '/event', component: NewEvent}
 ]
