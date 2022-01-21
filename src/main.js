@@ -8,14 +8,17 @@ import Vote from './components/Vote';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import vuetify from './plugins/vuetify'
 import NewEvent from "./components/NewEvent";
+import Info from "./components/info";
 
 Vue.use(VueRouter);
 
 const routes = [
   { path: '/myprofile', component: Landing },
   { path: '/signup', component: Signup },
-  { path: '/', component: Login },
+  { path: '/login', component: Login },
   { path: '/vote', component: Vote },
+  { path: '/', component: Info },
+
   { path : '/event', component: NewEvent}
 ]
 

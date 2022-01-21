@@ -69,7 +69,7 @@ export default {
   },
   created() {
     if (localStorage.getItem('token') === null) {
-      this.$router.push('/');
+      this.$router.push('/login');
     }
   },
   mounted() {
@@ -93,7 +93,7 @@ export default {
   methods: {
     logout() {
       localStorage.clear();
-      this.$router.push('/');
+      this.$router.push('/login');
     },
 
     govote() {

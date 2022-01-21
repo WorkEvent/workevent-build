@@ -79,7 +79,7 @@ export default {
     },
       clickLogin()
       {
-        this.$router.push('/');
+        this.$router.push('/login');
       }
 
   }
