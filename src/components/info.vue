@@ -17,7 +17,7 @@
     <div class="row">
       <div class="col-9 info-section">
         <div class="col-6 info-text">
-          <p class="h3 info-t text-center pt-2">Qui sommes-nous ? </p>
+          <p class="h3 info-t pt-2">Qui sommes-nous ? </p>
           <p>Nous sommes un projet de développement de bien-être en entreprise souhaitant transformer le relationnel en créant des liens sociaux en dehors du cadre de travail</p>
         </div>
       </div>
