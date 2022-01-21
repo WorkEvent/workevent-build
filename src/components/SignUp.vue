@@ -7,7 +7,9 @@
           <div class="login-title">
             <p class="h5 login-text text-center pt-2">Inscription</p>
           </div>
-
+          <div class="input-mail col-12 pt-2">
+            <p>Prénom : </p> <input class="w-100 input-area" type="text" v-model="first">
+          </div>
           <div class="input-mail col-12 pt-2">
             <p>Nom :</p> <input class="w-100 input-area" type="text" v-model="name">
           </div>
@@ -17,9 +19,7 @@
           <div class="input-mail col-12 pt-2">
             <p>Entreprise : </p> <input class="w-100 input-area" type="text" v-model="society">
           </div>
-          <div class="input-mail col-12 pt-2">
-            <p>Prénom : </p> <input class="w-100 input-area" type="text" v-model="first">
-          </div>
+
           <div class="input-mail col-12 pt-2">
             <p>Mot de passe :</p> <input class="w-100 input-area" type="password" v-model="password">
           </div>

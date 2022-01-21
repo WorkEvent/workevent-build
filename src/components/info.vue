@@ -6,14 +6,9 @@
     </div>
     <div class="row">
       <div class="col-12 first-section">
-        <div class="first-text">
-          <div class="col-6" style="margin: auto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-        <div class="buttons col-6">
-          <button class="button-click" @click="clickLogin">Connexion</button>
-          <button class="button-click" @click="clickSignUp">Inscription</button>
+        <div class="buttons col-12">
+          <button class="col-4 button-click w-25" @click="clickLogin">Connexion</button>
+          <button class="col-4 button-click w-25 mt-2" @click="clickSignUp">Inscription</button>
         </div>
 
       </div>
@@ -22,8 +17,8 @@
     <div class="row">
       <div class="col-9 info-section">
         <div class="col-6 info-text">
-          <p class="h3 info-t text-center pt-2">Qui sommes-nous</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="h3 info-t text-center pt-2">Qui sommes-nous ? </p>
+          <p>Nous sommes un projet de développement de bien-être en entreprise souhaitant transformer le relationnel en créant des liens sociaux en dehors du cadre de travail</p>
         </div>
       </div>
       <div class="col-3 right-login">
@@ -32,18 +27,15 @@
     </div>
     <div class="row">
       <div class="col-12 third-section">
-        <div class="col-4 block-text">
+        <div class="col-6 block-text">
           <h2>Notre éthique</h2>
           <p>Développer l'intégration de demain avec une plateforme innovante</p>
         </div>
-        <div class="col-4 block-text">
+        <div class="col-6 block-text">
           <h2>Notre Objectif</h2>
-          <p>Créer un lien social entre les salariés de l'entreprise et participer à la conception du bien-être</p>
+          <p>Créer un lien social entre les salariés de l'entreprise et participer au bien-être des collaborateurs</p>
         </div>
-        <div class="col-4 block-text">
-          <h2>Nos Valeurs</h2>
-          <p></p>
-       </div>
+
     </div>
     <div class="row">
       <div class="col-12" style="padding: 0;">
@@ -115,12 +107,13 @@ template {
 }
 .buttons {
   height: 12.5vh;
-  margin: auto;
-  display: flex;
+  margin-top: 5%;
+  display: block;
 }
 .button-click {
-  padding: 1.5%;
-  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Roboto,sans-serif;
   color: white ;
   font-weight: bold;
