@@ -1,13 +1,14 @@
 {
-  "name": "mevn",
+  "name": "workevent",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "concurrently \"npm run serve\" \"node server.js\"",
+    "build" : "ue-cli-service build && node server.js",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "toto": "node server.js"
   },
   "dependencies": {
     "axios": "^0.24.0",
