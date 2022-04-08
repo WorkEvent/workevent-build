@@ -38,7 +38,7 @@
 
     </div>
     <div class="row">
-      <div class="col-12" style="padding: 0;">
+      <div class="col-12 p-0">
         <div class="col-12 footer-section">
           <div class="col-12 footer-links">
             <ul class="footer-text">

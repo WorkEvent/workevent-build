@@ -45,6 +45,7 @@ app.post('/signup', (req, res) => {
     })
 })
 
+
 app.post('/newevent', (req, res) => {
     const newEvent = new Event({
         eventid : req.body.eventid,

@@ -43,6 +43,27 @@
 
           </div>
         </div>
+        <div class="row info">
+          <h5>Mes informations de connexion</h5>
+          <div class="col-4">
+            <p class="w-100 fw-bold mt-2 mb-0">Mail :</p>
+            <input type="text" class="w-100 input-area">
+          </div>
+          <div class="col-4">
+            <p class="w-100 fw-bold mt-2 mb-0">Mot de passe</p>
+            <input type="text" class="w-100 input-area">
+          </div>
+          <div class="col-4">
+            <p class="w-100 fw-bold mt-2 mb-0">Confirmer Mot de passe </p>
+            <input type="text" class="w-100 input-area">
+          </div>
+
+
+          <div class="col-12">
+            <button class="vote-button-click" @click="govote">Modifier mon mot de passe </button>
+
+          </div>
+        </div>
       </div>
 
 
@@ -73,7 +94,7 @@ export default {
     }
   },
   mounted() {
-    axios.get('http://localhost:5000/user', { headers: { token: localStorage.getItem('token')}})
+    axios.get('https://serverworkevent.herokuapp.com/user', { headers: { token: localStorage.getItem('token')}})
         .then(res => {
           this.name = res.data.user.name;
           this.email = res.data.user.email;
@@ -81,7 +102,7 @@ export default {
           this.first = res.data.user.first;
 
         })
-    axios.get('http://localhost:5000/event')
+    axios.get('https://serverworkevent.herokuapp.com/event')
       .then(res => {
 
         this.eventname = res.data
@@ -127,13 +148,21 @@ body html {
   margin-left: 1%;
 }
 
+.input-area {
+  font-family: Roboto,sans-serif;
+  background-color: rgba(239,239,239,1);
+  border-radius: 5px;
+  border-color: rgba(133,133,133,1);
+
+}
+
 .vote-button-click {
   font-family: Roboto,sans-serif;
   color: white ;
   font-weight: bold;
   background-color: rgba(255,193,59,1);
   border-radius: 5px;
-  width: 20%;
+  width: 39%;
   display: block;
   margin-left: auto;
   margin-right: auto;
