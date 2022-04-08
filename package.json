@@ -7,7 +7,6 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "server": "nodemon server",
-    "start"
   },
   "dependencies": {
     "axios": "^0.24.0",
