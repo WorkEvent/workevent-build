@@ -65,7 +65,7 @@ export default {
           society: this.society,
           first : this.first
         }
-        axios.post('https://serverworkevent.herokuapp.com/signup', newUser)
+        axios.post('http://localhost:5000/signup', newUser)
             .then(res => {
               console.log(res)
               this.error = '';

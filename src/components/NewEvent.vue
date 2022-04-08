@@ -64,7 +64,7 @@ export default {
         eventdate : this.eventdate,
         picture : this.picture,
       }
-      axios.post('https://serverworkevent.herokuapp.com/newevent', newEvent)
+      axios.post('http://localhost:5000/newevent', newEvent)
           .then(res => {
             console.log(res)
             this.error = '';

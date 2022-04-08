@@ -102,7 +102,7 @@ export default {
           this.first = res.data.user.first;
 
         })
-    axios.get('https://serverworkevent.herokuapp.com/event')
+    axios.get('http://localhost:5000/event')
       .then(res => {
 
         this.eventname = res.data
